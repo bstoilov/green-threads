@@ -1,0 +1,31 @@
+# IntelliJ IDEA configuration
+.project
+.settings/
+.idea/
+atlassian-ide-plugin.xml
+
+# File-based project format
+*.iml
+*.ipr
+*.iws
+
+# Build directories
+out/
+build/
+bin/
+
+# Java specifics
+.classpath
+
+# OSX specific files
+.DS_Store
+
+# Gradle configuration
+.gradle
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+APIDoc.html
+
+src/main/resources/static/
